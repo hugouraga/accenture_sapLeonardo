@@ -21,48 +21,48 @@ sap.ui.define([
 					{
 						pageId: "companyPageId",
 						header: "Company info",
-						title: "Adventure Company",
-						titleUrl: "http://sap.com",
+						title: "Accenture",
+						titleUrl: "http://accenture.com",
 						icon: "sap-icon://building",
-						description: "John Doe",
+						description: "Hugo Issao Uraga",
 						groups: [
 							{
-								heading: "Contact Details",
+								heading: "Detalhes para contato",
 								elements: [
 									{
-										label: "Phone",
-										value: "+001 6101 34869-0",
+										label: "Telefone",
+										value: "81 99885-5029",
 										elementType: sap.m.QuickViewGroupElementType.phone
 									},
 									{
-										label: "Address",
-										value: "550 Larkin Street, 4F, Mountain View, CA, 94102 San Francisco USA",
+										label: "Endereço",
+										value: "Rua Antonio Valdevino da Costa, nº 280",
 										elementType: sap.m.QuickViewGroupElementType.text
 									}
 								]
 							},
 							{
-								heading: "Main Contact",
+								heading: "Contato principal",
 								elements: [
 									{
-										label: "Name",
-										value: "John Doe",
+										label: "Nome",
+										value: "Hugo Issao Uraga",
 										elementType: sap.m.QuickViewGroupElementType.pageLink,
 										pageLinkId: "companyEmployeePageId"
 									},
 									{
-										label: "Mobile",
-										value: "+001 6101 34869-0",
+										label: "Celular",
+										value: "81 99885-5029",
 										elementType: sap.m.QuickViewGroupElementType.mobile
 									},
 									{
-										label: "Phone",
-										value: "+001 6101 34869-0",
+										label: "Whatsapp",
+										value: "81 99885-5029",
 										elementType: sap.m.QuickViewGroupElementType.phone
 									},
 									{
 										label: "Email",
-										value: "main.contact@company.com",
+										value: "hiu@cin.ufpe.br",
 										emailSubject : 'Subject',
 										elementType: sap.m.QuickViewGroupElementType.email
 									}
@@ -73,26 +73,26 @@ sap.ui.define([
 					{
 						pageId: "companyEmployeePageId",
 						header: "Employee Info",
-						title: "John Doe",
+						title: "Hugo Issao Uraga",
 						icon: "sap-icon://person-placeholder",
-						description: "Department Manager",
+						description: "Departamento de SAP Leonardo",
 						groups: [
 							{
-								heading: "Company",
+								heading: "Empresa",
 								elements: [
 									{
 										label: "Name",
-										value: "Adventure Company",
-										url: "http://sap.com",
+										value: "Accenture",
+										url: "https://www.accenture.com/br-pt",
 										elementType: sap.m.QuickViewGroupElementType.link
 									},
 									{
-										label: "Address",
-										value: "Sofia, Boris III, 136A"
+										label: "Endereço",
+										value: "Av. Alfredo Lisboa - Recife, PE, 50030-230"
 									},
 									{
 										label: "Slogan",
-										value: "Innovation through technology"
+										value: "Alta performance e inovação."
 									}
 								]
 							},
@@ -101,13 +101,13 @@ sap.ui.define([
 								elements: [
 									{
 										label: "Email",
-										value: "john.doe@sap.com",
+										value: "hugouraga61@gmail.com",
 										emailSubject : 'Subject',
 										elementType: sap.m.QuickViewGroupElementType.email
 									},
 									{
 										label: "Phone",
-										value: "+359 888 888 888",
+										value: "-",
 										elementType: sap.m.QuickViewGroupElementType.mobile
 									}
 								]
