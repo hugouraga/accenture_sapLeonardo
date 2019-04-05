@@ -1,0 +1,33 @@
+<mvc:View controllerName="quick.quickView.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<Panel id="quickViewCardContainer" width="auto" height="600px">
+				<QuickViewCard id="quickViewCard" pages="{path : '/pages', templateShareable : 'true'}"
+					navigate="onNavigate"
+					afterNavigate="onAfterNavigate">
+					<QuickViewPage
+							pageId="{pageId}"
+							header="{header}"
+							icon="{icon}"
+							title="{title}"
+							titleUrl="{titleUrl}"
+							description="{description}"
+							groups="{path : 'groups', templateShareable : 'true'}">
+						<QuickViewGroup heading="{heading}" elements="{path : 'elements', templateShareable : 'true'}">
+							<QuickViewGroupElement
+									label="{label}"
+									value="{value}"
+									url="{url}"
+									type="{elementType}"
+									pageLinkId="{pageLinkId}"
+									emailSubject="{emailSubject}"
+									target="{target}"
+									>
+							</QuickViewGroupElement>
+						</QuickViewGroup>
+					</QuickViewPage>
+				</QuickViewCard>
+			</Panel>
+		</App>
+	</Shell>
+</mvc:View>
